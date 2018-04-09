@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Release\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Release\FastResampler.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.pdb

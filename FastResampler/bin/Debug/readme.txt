@@ -1,0 +1,1 @@
+请将合成和重采样工具全部改为FastResampler.exe
