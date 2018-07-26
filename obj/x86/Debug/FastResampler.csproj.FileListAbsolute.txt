@@ -1,0 +1,46 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\bin\Debug\FastResampler.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\bin\Debug\FastResampler.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\obj\x86\Debug\FastResampler.Properties.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\obj\x86\Debug\FastResampler.csproj.GenerateResource.Cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\obj\x86\Debug\FastResampler.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\FastResampler\obj\x86\Debug\FastResampler.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\UserControl1.baml
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\UserControl1.g.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler_MarkupCompile.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.g.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\WpfCanvas.baml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\WpfCanvas.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler_MarkupCompile.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.g.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Debug\FastResampler.pdb
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe.config
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.pdb
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\NAudio.dll
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\NAudio.xml
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csprojAssemblyReference.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\UserControl1.baml
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\UserControl1.g.cs
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler_MarkupCompile.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.g.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.Form1.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.Properties.Resources.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csproj.GenerateResource.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csproj.CoreCompileInputs.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.csproj.CopyComplete
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.exe
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Debug\FastResampler.pdb

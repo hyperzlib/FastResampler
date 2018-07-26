@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Release\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Release\FastResampler.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\UserControl1.baml
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\UserControl1.g.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler_MarkupCompile.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\obj\x86\Release\FastResampler.g.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\FastResampler\FastResampler\bin\Release\FastResampler.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\bin\Release\FastResampler.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Release\FastResampler.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\FastResampler_winform\FastResampler\obj\x86\Release\FastResampler.pdb

@@ -1,0 +1,17 @@
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe.config
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.exe
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\FastResampler.pdb
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\NAudio.dll
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\bin\Debug\NAudio.xml
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.csprojAssemblyReference.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\UserControl1.baml
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\UserControl1.g.cs
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler_MarkupCompile.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.g.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.Form1.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.Properties.Resources.resources
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.csproj.GenerateResource.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.csproj.CoreCompileInputs.cache
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.csproj.CopyComplete
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.exe
+C:\Users\chs\Documents\Visual Studio 2010\Projects\FastResampler\FastResampler\obj\Debug\FastResampler.pdb
