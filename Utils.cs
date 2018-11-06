@@ -160,6 +160,11 @@ namespace FastResampler
             }
         }
 
+        /// <summary>
+        /// 解析cmd参数
+        /// </summary>
+        /// <param name="cmd">cmd命令</param>
+        /// <returns>参数列表</returns>
         public static string[] parseArgs(string cmd)
         {
             List<string> args = new List<string>();
@@ -193,6 +198,16 @@ namespace FastResampler
             return args.ToArray();
         }
 
+        /// <summary>
+        /// 生成随机数
+        /// </summary>
+        /// <param name="length">长度</param>
+        /// <param name="useNum">使用数字</param>
+        /// <param name="useLow">使用小写</param>
+        /// <param name="useUpp">使用大写</param>
+        /// <param name="useSpe">使用空格</param>
+        /// <param name="custom"></param>
+        /// <returns>生成的字符串</returns>
         public static string GetRandomString(int length, bool useNum, bool useLow, bool useUpp, bool useSpe, string custom)
         {
             byte[] b = new byte[4];
@@ -210,38 +225,36 @@ namespace FastResampler
             return s;
         } 
 
+        /// <summary>
+        /// 执行cmd指令
+        /// </summary>
+        /// <param name="cmd">cmd指令</param>
+        /// <returns>返回值</returns>
         public static string system(string cmd)
         {
             Process p = new Process();
-            //设置要启动的应用程序
             p.StartInfo.FileName = "cmd.exe";
-            //是否使用操作系统shell启动
             p.StartInfo.UseShellExecute = false;
-            // 接受来自调用程序的输入信息
             p.StartInfo.RedirectStandardInput = true;
-            //输出信息
             p.StartInfo.RedirectStandardOutput = true;
-            // 输出错误
             p.StartInfo.RedirectStandardError = true;
-            //不显示程序窗口
             p.StartInfo.CreateNoWindow = true;
             p.StartInfo.WorkingDirectory = System.Environment.CurrentDirectory;
-            //启动程序
             p.Start();
-
-            //向cmd窗口发送输入信息
             p.StandardInput.WriteLine(cmd + "&exit");
-
             p.StandardInput.AutoFlush = true;
-
-            //获取输出信息
             string strOuput = p.StandardOutput.ReadToEnd();
-            //等待程序执行完退出进程
             p.WaitForExit();
             p.Close();
             return strOuput;
         }
 
+        /// <summary>
+        /// 截取部分数组
+        /// </summary>
+        /// <param name="arr">数组</param>
+        /// <param name="start">开始部分</param>
+        /// <returns>截取后的数组</returns>
         public static string[] subarr(string[] arr, int start)
         {
             string[] output = new string[arr.Length - start];
@@ -253,6 +266,11 @@ namespace FastResampler
             return output;
         }
 
+        /// <summary>
+        /// UTAU 长度字符串转毫秒
+        /// </summary>
+        /// <param name="lenstr">长度字符串</param>
+        /// <returns>毫秒时间</returns>
         public static double parseLength(string lenstr)
         {
             double duration, tempo, plustime;
@@ -307,6 +325,14 @@ namespace FastResampler
             return ret;
         }
 
+        /// <summary>
+        /// 创建wav头部
+        /// </summary>
+        /// <param name="samples">长度samples</param>
+        /// <param name="channels">声道数量</param>
+        /// <param name="fs">采样率</param>
+        /// <param name="nbit">比特</param>
+        /// <returns>wave头部</returns>
         public static byte[] makeRiffHeader(int samples, int channels, int fs, int nbit)
         {
             byte[] header = new byte[44];
@@ -326,6 +352,12 @@ namespace FastResampler
             return header;
         }
 
+        /// <summary>
+        /// 生成空白wav音频
+        /// </summary>
+        /// <param name="length">时长（ms）</param>
+        /// <param name="filename">保存文件名</param>
+        /// <returns></returns>
         public static bool generateWhiteWave(double length, string filename)
         {
             FileStream fs = new FileStream(filename, FileMode.Create);

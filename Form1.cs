@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
+using FastResampler.Note;
+using FastResampler.Param;
 
 namespace FastResampler
 {
@@ -22,16 +24,14 @@ namespace FastResampler
         public int progress2MaxNum;
         public int progress2NowNum;
         public string status1 = "", status2 = "";
-        public Config config;
-        public LangPack lang;
         public NotePainter painter;
         public string rootDir = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
         
         public Form1()
         {
             InitializeComponent();
-            this.config = new Config(this.rootDir + "FastResampler.xml");
-            this.lang = new LangPack(rootDir + "language.xml", config);
+            Global.config = new Config(this.rootDir + "FastResampler.xml");
+            Global.lang = new LangPack(rootDir + "language.xml", Global.config);
         }
 
         public void SetProgress1MaxNum(int max)
@@ -76,26 +76,26 @@ namespace FastResampler
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = lang.fetch("正在合成……");
-            label1.Text = lang.fetch("合成进度：");
-            label2.Text = lang.fetch("拼接进度：");
-            labelStatus.Text = lang.fetch("加载中……");
+            this.Text = Global.lang.fetch("正在合成……");
+            label1.Text = Global.lang.fetch("合成进度：");
+            label2.Text = Global.lang.fetch("拼接进度：");
+            labelStatus.Text = Global.lang.fetch("加载中……");
             Control.CheckForIllegalCrossThreadCalls = false;
             #if DEBUG
             //System.Environment.CurrentDirectory = @"C:\Users\Administrator\AppData\Local\Temp\utau1";
             #endif
             string batFile = System.Environment.CurrentDirectory + "\\temp.bat";
-            if (!this.config.showConsole)
+            if (!Global.config.showConsole)
             {
                 Utils.hideBat();
             }
             if (File.Exists(batFile))
             {
-                labelStatus.Text = lang.fetch("正在解析数据……");
+                labelStatus.Text = Global.lang.fetch("正在解析数据……");
                 try
                 {
-
-                    UtauBat bat = new UtauBat(batFile, this.lang);
+                    NoteList noteList = new NoteList();
+                    UtauBat bat = new UtauBat(batFile);
                     //this.painter = new NotePainter(noteCanvas.CreateGraphics(), noteCanvas.Width, noteCanvas.Height, bat);
                     Resampler resampler = new Resampler(bat, this);
                     Thread thread = new Thread(new ThreadStart(resampler.synthetise));
@@ -114,7 +114,7 @@ namespace FastResampler
             }
             else
             {
-                MessageBox.Show(lang.fetch("请在UTAU中调用！"), lang.fetch("错误"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Global.lang.fetch("请在UTAU中调用！"), Global.lang.fetch("错误"), MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.SafeClose();
             }
         }
@@ -136,7 +136,7 @@ namespace FastResampler
 
         public void SafeClose()
         {
-            if (!this.config.showConsole)
+            if (!Global.config.showConsole)
             {
                 Utils.showBat();
             }
@@ -151,7 +151,7 @@ namespace FastResampler
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (!this.config.showConsole)
+            if (!Global.config.showConsole)
             {
                 Utils.showBat();
             }
